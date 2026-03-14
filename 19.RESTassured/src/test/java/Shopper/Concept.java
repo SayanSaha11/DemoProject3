@@ -18,5 +18,6 @@ public class Concept {
 	@Test(dependsOnMethods="atest", invocationCount = 5, enabled = false)
 	public void ctest() {
 		System.out.println("Test C passed");
+		System.out.println("Morning changed");
 	}
 }
